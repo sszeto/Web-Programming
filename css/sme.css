@@ -3,6 +3,7 @@
 	padding-top: 20px; 
 }
 
+
 /*Bootstrap Override*/
 .row {
 	margin-right: 0px;
@@ -13,13 +14,9 @@
 /*Social Media Icons*/
 .mediaIcons{
 	font-size: 30px; 
-	 
     border-radius: 100%;
-    
     width: 60px;
     height: 60px;
-
-
 }
 
 span.icon { 
@@ -40,6 +37,8 @@ li > a {
 	font-style: normal;
 	padding-bottom: 5px;
 }
+
+
 /*Toolbar hover effect*/
 li > a:hover {
 	text-decoration: none;
@@ -48,25 +47,30 @@ li > a:hover {
 	font-weight: bolder;
 	border-bottom: 1px solid #DDD;
 }
+
 .navList > li {
 	display: inline-block;
 	padding-left: 10px;
 	padding-right: 10px;
 }
+
 ul {
 	list-style: none outside none;
 	width: auto;
 	margin: auto;
 	padding: 0px 30px;
 }
+
 .topNav {
 	text-align: center;
 }
+
 nav {
 	display: inline-block;
 	width: 100%;
 	text-align: center;
 }
+
 /*Straight line on desktop view toolbar*/
 .divider {
 	display: inline-block;
@@ -75,52 +79,62 @@ nav {
 	border-bottom-width: 2px;
 	border-bottom: 3px solid #DDD;
 }
+
 #nav-container {
 	padding-bottom: 20px;
 }
+
+
 /*Mobile View*/
 @media (max-width: 975px) {
 
-/*Hide desktop things*/
-#non-mobile-nav {
-	display: none;
+	/*Hide desktop things*/
+	#non-mobile-nav {
+		display: none;
+	}
+	
+	.divider {
+		display:none;
+	}
+	
+	
+	/*Show mobile things*/
+	.mobileNav {
+		visibility: visible;
+	}
+	
+	.serv-block {
+		visibility: visible;
+		display: block;
+	}
+	
+	
+	/*Adjust other things*/
+	#wrapper {
+		padding-top: 35px;
+	}
+	
+	#serNav {
+		padding-top: 70px;
+	}
+	#orderIdView {
+		float: left !important;
+	}
 }
 
-.divider {
-	display:none;
-}
 
-/*Show mobile things*/
-.mobileNav {
-	visibility: visible;
-}
-.serv-block {
-	visibility: visible;
-	display: block;
-}
-
-/*adjust things*/
-#wrapper {
-	padding-top: 35px;
-}
-#serNav {
-	padding-top: 70px;
-}
-#orderIdView {
-	float: left !important;
-}
-}
 /*Desktop view*/
 @media (min-width: 975px) {
-
-/*Show Desktop things*/
-#non-mobile-container {
-	padding-bottom: 100px;
-	visibility: visible;
-}
-
-/*Hide mobile things*/
-.mobileNav {
-	display: none;
-}
+	
+	/*Show Desktop things*/
+	#non-mobile-container {
+		padding-bottom: 100px;
+		visibility: visible;
+	}
+	
+	
+	/*Hide mobile things*/
+	.mobileNav {
+		display: none;
+	}
 }
