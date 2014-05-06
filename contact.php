@@ -4,8 +4,6 @@
 <head>
 <?php include 'php/head.php'; ?>
 <title>Contact - Scrapbook My Event</title>
-<style type="text/css">
-</style>
 </head>
 
 <body>
@@ -308,6 +306,7 @@
 </div>
 <?php include 'php/footer.php';  ?>
 <!--Javascript form validation-->
+
 <script src="js/contact_validate.js"></script>
 <script type="text/javascript">
 

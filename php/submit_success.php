@@ -2,13 +2,15 @@
 <html>
 
 <head>
-<?php include 'head.php'; ?>
+
+<!--Hi Robot, Please Don't Index This Page!-->
+<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
 
 <!--Redirect to homepage-->
 <meta content="5;URL=http://www.scrapbookmyevent.com" http-equiv="refresh">
+
+<?php include 'head.php'; ?>
 <title>Redirecting...</title>
-<style type="text/css">
-</style>
 </head>
 
 <body>

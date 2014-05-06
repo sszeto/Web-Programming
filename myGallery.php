@@ -4,8 +4,6 @@
 <head>
 <?php include 'php/head.php'; ?>
 <title>My Gallery - Scrapbook My Event</title>
-<style type="text/css">
-</style>
 </head>
 
 <body>
