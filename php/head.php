@@ -6,11 +6,12 @@
 <meta content="Scrapbook your event today!" name="description">
 <link href="/img/fav_icon_trans.png" rel="shortcut icon" /> <!--Icon-->
 
-<link href="/bootstrap/css/bootstrap.min.css" media="screen" rel="stylesheet"> <!--Bootstrap CSS-->
-<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet"> <!--Font Awesome CDN-->
-<link href="/css/sme.css" media="screen" rel="stylesheet"> <!--Site CSS-->
+<!--Bootstrap CSS-->
+<link href="/bootstrap/css/bootstrap.min.css" media="screen" rel="stylesheet"> 
 
-<script src="/js/jquery-1.11.0.min.js"></script> <!--Jquery CDN not required-->
-<script src="/js/respondJS/respond.min.js"></script> <!--Media query support IE6 - IE8-->
-<script src="/bootstrap/js/bootstrap.min.js"></script> <!--Bootstrap-->
+<!--Font Awesome-->
+<link href="../css/awesome/css/font-awesome.min.css" media="screen" rel="stylesheet"> 
+<!-- <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet"> Font Awesome CDN-->
 
+<!--Site CSS-->
+<link href="/css/sme.css" media="screen" rel="stylesheet"> 
